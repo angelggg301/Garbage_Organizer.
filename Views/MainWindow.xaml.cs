@@ -25,11 +25,11 @@ namespace Garbage_Organizer
             bool? response = openFileDialog.ShowDialog();
             if (response == true)
             {
-                 string filePath = openFileDialog.FileName;
+                string filePath = openFileDialog.FileName;
                 string fileName = Path.GetDirectoryName(filePath);
             }
 
-            
+
         }
     }
 }
